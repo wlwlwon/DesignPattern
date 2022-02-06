@@ -10,7 +10,7 @@ public class Reflection {
 
         Settings5 settings1 = null;
         Constructor<?>[] declaredConstructors = Settings5.class.getDeclaredConstructors();
-        for(Constructor<?> constructor : declaredConstructors){
+         for(Constructor<?> constructor : declaredConstructors){
             constructor.setAccessible(true);
             settings1 = (Settings5) constructor.newInstance("INSTANCE");
         }

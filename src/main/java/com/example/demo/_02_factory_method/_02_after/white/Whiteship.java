@@ -1,4 +1,6 @@
-package com.example.demo._02_factory_method._02_after;
+package com.example.demo._02_factory_method._02_after.white;
+
+import com.example.demo._02_factory_method._02_after.Ship;
 
 public class Whiteship extends Ship {
 
