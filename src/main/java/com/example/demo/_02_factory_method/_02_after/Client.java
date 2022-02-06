@@ -1,5 +1,8 @@
 package com.example.demo._02_factory_method._02_after;
 
+import com.example.demo._02_factory_method._02_after.black.BlackshipFactory;
+import com.example.demo._02_factory_method._02_after.white.WhiteshipFactory;
+
 public class Client {
 
     public static void main(String[] args) {

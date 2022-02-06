@@ -1,7 +1,7 @@
 package com.example.demo._03_abstract_factory._03_java;
 
 import com.example.demo._02_factory_method._02_after.Ship;
-import com.example.demo._02_factory_method._02_after.Whiteship;
+import com.example.demo._02_factory_method._02_after.white.Whiteship;
 import org.springframework.beans.factory.FactoryBean;
 
 public class ShipFactory implements FactoryBean<Ship> {
